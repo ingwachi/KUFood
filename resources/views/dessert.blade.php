@@ -147,8 +147,8 @@
                     <div class="card" style="width: 16rem; height: 27rem">
                         <img class="card-img-top" src="/img/homepage/content2.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">3 ร้านอาหารน่าลองย่านเกษตร <span class="badge badge-danger">New</span></h5>
-                            <p class="card-text">3 อันดับร้านอาหารเด็ดยอดฮิตของเด็กเกษตรไม่มาถือว่ามาไม่ถึงเกษตร...</p>
+                            <h5 class="card-title">3 ร้านบุฟเฟ่ต์น่าลองย่านเกษตร <span class="badge badge-danger">New</span></h5>
+                            <p class="card-text">3 อันดับร้านบุฟเฟ่ต์เด็ดยอดฮิตของเด็กเกษตรไม่มาถือว่ามาไม่ถึงเกษตร...</p>
                             <a href="#" class="btn btn-info" style="margin-left: 25%">อ่านบทความ</a>
                         </div>
                     </div>
