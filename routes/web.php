@@ -19,3 +19,6 @@ Route::get('/content1', function () {
     return view('dessert');
 });
 
+Route::get('/content2', function () {
+    return view('buffet');
+});

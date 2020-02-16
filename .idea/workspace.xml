@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d4c8cfe-12e6-45cd-924b-1b6764d5c7df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/dessert.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dessert.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/homepage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/homepage.blade.php" afterDir="false" />
+    <list default="true" id="3d4c8cfe-12e6-45cd-924b-1b6764d5c7df" name="Default Changelist" comment="Edit content">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,17 +141,25 @@
       <updated>1581680818810</updated>
       <workItem from="1581680827262" duration="3568000" />
       <workItem from="1581757308058" duration="12691000" />
-      <workItem from="1581827631612" duration="6909000" />
+      <workItem from="1581827631612" duration="9627000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Edit content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit content" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="411" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581761069044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="411" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1581761069044" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581835135578">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581835135578" />
   </component>
 </project>
