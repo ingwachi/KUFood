@@ -149,7 +149,7 @@
                         <div class="card-body">
                             <h5 class="card-title">3 ร้านบุฟเฟ่ต์น่าลองย่านเกษตร <span class="badge badge-danger">New</span></h5>
                             <p class="card-text">3 อันดับร้านบุฟเฟ่ต์เด็ดยอดฮิตของเด็กเกษตรไม่มาถือว่ามาไม่ถึงเกษตร...</p>
-                            <a href="#" class="btn btn-info" style="margin-left: 25%">อ่านบทความ</a>
+                            <a href="/content2" class="btn btn-info" style="margin-left: 25%">อ่านบทความ</a>
                         </div>
                     </div>
                     <div class="card" style="width: 16rem; height: 27rem; margin-top: 3%">
