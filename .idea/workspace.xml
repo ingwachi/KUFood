@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4c8cfe-12e6-45cd-924b-1b6764d5c7df" name="Default Changelist" comment="Edit content">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SukiController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Restaurant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_24_130329_create_restaurants_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_24_130532_create_menus_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/MenusTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/RestaurantsTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/content3/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/content3/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/content3/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/suki/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/suki/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/suki/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/suki/suki.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/homepage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/homepage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,8 +136,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VNotify" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\kufood\resources\views\suki" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -141,7 +162,10 @@
       <updated>1581680818810</updated>
       <workItem from="1581680827262" duration="3568000" />
       <workItem from="1581757308058" duration="12691000" />
-      <workItem from="1581827631612" duration="9627000" />
+      <workItem from="1581827631612" duration="9954000" />
+      <workItem from="1581935576548" duration="963000" />
+      <workItem from="1582000520930" duration="20000" />
+      <workItem from="1582523819077" duration="25398000" />
     </task>
     <servers />
   </component>
@@ -153,13 +177,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="Edit content" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="411" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581761069044">
+    <state x="411" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582564297764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="411" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1581761069044" />
+    <state x="411" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1582564297764" />
+    <state x="413" y="117" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1582562743590">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="117" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1582562743590" />
     <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581835135578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581835135578" />
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1582568470606">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582568470606" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1582564737088">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582564737088" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582567746945">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1582567746945" />
   </component>
 </project>

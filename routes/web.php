@@ -22,3 +22,6 @@ Route::get('/content1', function () {
 Route::get('/content2', function () {
     return view('buffet');
 });
+
+Route::resource('/content3', 'SukiController');
+

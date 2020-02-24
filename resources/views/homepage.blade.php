@@ -52,7 +52,7 @@
                     <div class="card-body">
                         <h5 class="card-title">เอ่งฉ้วนสุกี้ร้านใหม่งามวงศ์วาน <span class="badge badge-danger">New</span></h5>
                         <p class="card-text">ร้านของเราเป็นอาหารจีนสไตล์ฮกเกี้ยนภูเก็ต สูตรอาหารที่เราทำเป็นมรดกตกทอดมาจากอากง และอาม่า...</p>
-                        <a href="#" class="btn btn-info" style="margin-left: 25%">อ่านบทความ</a>
+                        <a href="/content3" target="_blank" class="btn btn-info" style="margin-left: 25%">อ่านบทความ</a>
                     </div>
                 </div>
             </div>
