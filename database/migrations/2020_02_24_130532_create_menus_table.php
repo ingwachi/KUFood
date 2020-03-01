@@ -19,7 +19,7 @@ class CreateMenusTable extends Migration
             $table->string('name');
             $table->string('price');
             $table->string('type');
-            $table->string('image');
+            $table->string('image')->nullable();
             $table->timestamps();
 
             $table->foreign('restaurant_id')->references('id')->on('restaurants')->onDelete('cascade');

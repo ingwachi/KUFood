@@ -25,3 +25,15 @@ Route::get('/content2', function () {
 
 Route::resource('/content3', 'SukiController');
 
+Route::resource('/restaurants', 'RestaurantsController');
+
+Route::get('/restaurants/menu/{restaurant}/create/', 'RestaurantsController@createMenu')->name('restaurants.menu.create');
+
+Route::post('/restaurants/{restaurant}/menu/store', 'RestaurantsController@storeMenu')->name('restaurant.menu.store');
+
+Route::get('/restaurants/{restaurant}/{menu}/menu/edit', 'RestaurantsController@editMenu')->name('restaurant.menu.edit');
+
+Route::put('/restaurants/{restaurant}/{menu}/update', 'RestaurantsController@updateMenu')->name('restaurant.menu.update');
+
+Route::delete('/restaurant/{restaurant}/{menu}/delete', 'RestaurantsController@deleteMenu')->name('restaurant.menu.delete');
+

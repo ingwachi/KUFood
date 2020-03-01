@@ -52,7 +52,7 @@
                     <div class="card-body">
                         <h5 class="card-title">เอ่งฉ้วนสุกี้ร้านใหม่งามวงศ์วาน <span class="badge badge-danger">New</span></h5>
                         <p class="card-text">ร้านของเราเป็นอาหารจีนสไตล์ฮกเกี้ยนภูเก็ต สูตรอาหารที่เราทำเป็นมรดกตกทอดมาจากอากง และอาม่า...</p>
-                        <a href="/content3" target="_blank" class="btn btn-info" style="margin-left: 25%">อ่านบทความ</a>
+                        <a href="{{ route('content3.index') }}" target="_blank" class="btn btn-info" style="margin-left: 25%">อ่านบทความ</a>
                     </div>
                 </div>
             </div>
@@ -60,9 +60,9 @@
                 <div class="card" style="width: 16rem; height: 27rem">
                     <img class="card-img-top" src="/img/homepage/content4.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">มาถึงเกษตรแล้วกับ Mihimihi</h5>
-                        <p class="card-text">ขนมสไตล์ฝรั่งเศส แป้งบางมีความกรอบ ชิ้นใหญ่ มีหลายไส้ให้เลือก...</p>
-                        <a href="#" class="btn btn-info" style="margin-left: 25%">อ่านบทความ</a>
+                        <h5 class="card-title">Sam Steak & More</h5>
+                        <p class="card-text">พบกับสเต็กราคาย่อมเยาว์ครองใจนักศึกษามหาวิทยาลัยเกษตรศาสตร์...</p>
+                        <a href="{{ route('restaurants.show', ['restaurant' => 3]) }}" class="btn btn-info" style="margin-left: 25%">อ่านบทความ</a>
                     </div>
                 </div>
             </div>
