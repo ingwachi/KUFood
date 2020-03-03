@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Menu;
 use App\Restaurant;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class RestaurantsController extends Controller
 {
@@ -92,17 +93,14 @@ class RestaurantsController extends Controller
 
     public function storeMenu(Request $request, $id) {
         $restaurant = Restaurant::find($id);
-        $file_name = $_FILES['image']['name'];
-        $file_tem_Loc = $_FILES['image']['tmp_name'];
-        $file_store = "img/menus/".$file_name;
-        move_uploaded_file($file_tem_Loc, $file_store);
 
+        $path = $request->file('image')->store('public');
         $menu = new Menu;
         $menu->restaurant_id = $id;
         $menu->name = $request->input('name');
         $menu->price = $request->input('price');
         $menu->type = $request->input('type');
-        $menu->image = $file_store;
+        $menu->image = Storage::url($path);
         $menu->save();
         return redirect()->route('restaurants.show', ['restaurant' => $id]);
     }

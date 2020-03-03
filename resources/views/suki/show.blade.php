@@ -4,7 +4,7 @@
     <div style="margin-left: 7%; font-family: 'Kanit', sans-serif; margin-top: 5%">
         <div class="row">
             <div class="col">
-                <img src="/{{ $menu->image }}" alt="" style="width: 600px; height: 400px">
+                <img src="{{ $menu->image }}" alt="" style="width: 600px; height: 400px">
             </div>
             <div class="col">
                 <div style="font-size: 50px; margin-top: 10%">{{ $menu->name }}</div>
