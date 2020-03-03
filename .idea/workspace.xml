@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3d4c8cfe-12e6-45cd-924b-1b6764d5c7df" name="Default Changelist" comment="Edit content">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RestaurantsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RestaurantsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/suki/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/suki/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/MenusTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/MenusTableSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +120,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spacetaxi" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -161,6 +160,7 @@
       <workItem from="1583050299769" duration="7213000" />
       <workItem from="1583114065189" duration="548000" />
       <workItem from="1583128184309" duration="998000" />
+      <workItem from="1583208298467" duration="957000" />
     </task>
     <servers />
   </component>
@@ -184,10 +184,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581835135578" />
-    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1582604529730">
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1583209047839">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582604529730" />
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583209047839" />
     <state x="339" y="157" key="run.anything.popup" timestamp="1582564737088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
